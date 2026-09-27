@@ -1,0 +1,7 @@
+[package]
+name = "ov2"
+version = "0.1.0"
+
+[[bin]]
+name = "ov2"
+path = "main.rs"
