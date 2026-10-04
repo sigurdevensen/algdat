@@ -1,0 +1,12 @@
+[package]
+name = "ov4"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "langetall"
+path = "langetall.rs"
+
+[[bin]]
+name = "soketre"
+path = "soketre.rs"
