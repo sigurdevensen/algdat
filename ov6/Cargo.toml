@@ -1,0 +1,15 @@
+[package]
+name = "ov6"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "komprimering"
+path = "komprimering.rs"
+
+[[bin]]
+name = "dekomprimering"
+path = "dekomprimering.rs"
+
+[profile.release]
+opt-level = 3
